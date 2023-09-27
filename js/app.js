@@ -39,6 +39,7 @@ app.filter("sortDate", function(){
         return 1
       }
 
+      return 0
     })
     return items;
   };
