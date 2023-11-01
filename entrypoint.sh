@@ -82,7 +82,7 @@ HeaderName HEADER.html
     UseCanonicalName On
     UseCanonicalPhysicalPort Off
 
-    OIDCRedirectURI $HTTP_SCHEME://$SERVER_NAME/sso/redirecti" >> /usr/local/apache2/conf/httpd.conf
+    OIDCRedirectURI $HTTP_SCHEME://$SERVER_NAME/sso/redirect" >> /usr/local/apache2/conf/httpd.conf
 
 if [ $HTTP_SCHEME = "https" ]; then
 	echo "OIDCXForwardedHeaders X-Forwarded-Host X-Forwarded-Proto X-Forwarded-Port Forwarded" >> /usr/local/apache2/conf/httpd.conf
