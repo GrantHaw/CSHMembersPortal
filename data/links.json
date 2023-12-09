@@ -85,6 +85,11 @@
         "icon": "foundation:comment-quotes"
       },
       {
+        "name": "Devcade Website",
+        "href": "https://devcade.csh.rit.edu",
+        "icon": "fa:gamepad"
+      },
+      {
         "name": "Game Night",
         "href": "https://game-night.csh.rit.edu",
         "icon": "foundation:die-three"
@@ -126,9 +131,9 @@
         "icon": "material:check-box"
       },
       {
-          "name": "HAROLD Audio Selector",
-          "href": "https://audiophiler.csh.rit.edu",
-          "icon": "material:music-note"
+        "name": "HAROLD Audio Selector",
+        "href": "https://audiophiler.csh.rit.edu",
+        "icon": "material:music-note"
       },
       {
         "name": "User Machines",
@@ -182,9 +187,9 @@
         "icon": "material:extension"
       },
       {
-	"name": "Resumes",
-	"href": "https://resumes.csh.rit.edu",
-	"icon": "fa:file-text"
+        "name": "Resumes",
+        "href": "https://resumes.csh.rit.edu",
+        "icon": "fa:file-text"
       }
     ]
   },
