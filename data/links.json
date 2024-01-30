@@ -190,6 +190,11 @@
         "name": "Resumes",
         "href": "https://resumes.csh.rit.edu",
         "icon": "fa:file-text"
+      },
+      {
+      	"name": "Pings",
+      	"href": "https://pings.csh.rit.edu",
+      	"icon": "material:add-alert"
       }
     ]
   },
