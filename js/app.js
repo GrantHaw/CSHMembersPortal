@@ -3,7 +3,11 @@ var app = angular.module("members", ['webicon']);
 app.directive("navbar", function() {
   return {
     restrict: "E",
-    templateUrl: "templates/navbar.html"
+    templateUrl: "templates/navbar.html",
+    link: function (scope, element, attrs) {
+      console.log('hello')
+      element.on('load', toggleTheme(element[0].children[0].firstElementChild.lastElementChild))
+    }
   }
 });
 
@@ -24,7 +28,6 @@ app.filter("sortDate", function(){
     });
 
     items.sort(function(a,b){
-      console.log(a.name + " " + a.day + " " + a.relaDay.toString())
       if (a.relaDay === b.relaDay) {
         if (a.time < b.time) {
           return -1
@@ -38,8 +41,6 @@ app.filter("sortDate", function(){
       } else {
         return 1
       }
-
-      return 0
     })
     return items;
   };
