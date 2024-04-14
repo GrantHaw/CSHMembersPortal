@@ -8,6 +8,7 @@ sed -i 's/LoadModule mpm_event_module/#LoadModule mpm_event_module/g' /usr/local
 
 echo "LoadModule userdir_module modules/mod_userdir.so
 LoadModule rewrite_module modules/mod_rewrite.so
+LoadModule headers_module modules/mod_headers.so
 LoadModule auth_openidc_module /usr/lib/apache2/modules/mod_auth_openidc.so
 
 # Hey future RTP, if you want to turn PHP/Perl back on, uncomment this
