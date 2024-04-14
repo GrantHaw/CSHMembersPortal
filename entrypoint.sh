@@ -72,6 +72,7 @@ HeaderName HEADER.html
 <Directory ~ /(users/)?u\d+/(u0/)?.*/\.html_pages>
 	Options	all MultiViews +Indexes
 	DirectoryIndex index.html index.htm
+	AllowOverride All
 	Require all granted
 </Directory>
 
