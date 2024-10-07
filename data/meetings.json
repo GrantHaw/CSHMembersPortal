@@ -7,12 +7,12 @@
   {
     "name": "R&D",
     "day": "WED",
-    "time": "6:30"
+    "time": "8:00"
   },
   {
-    "name": "Financial",
-    "day": "THU",
-    "time": "6:30"
+    "name": "Financhvals",
+    "day": "TUE",
+    "time": "8:00"
   },
   {
     "name": "Eboard",
@@ -22,56 +22,46 @@
   {
     "name": "OpComm",
     "day": "MON",
-    "time": "8:00"
+    "time": "6:30"
   },
   {
     "name": "PR",
-    "day": "MON",
+    "day": "WED",
     "time": "6:00"
   },
   {
     "name": "Devcade",
-    "day": "WED",
-    "time": "7:30"
+    "day": "TUE",
+    "time": "9:00"
   },
   {
     "name": "IMPS",
     "day": "MON",
-    "time": "5:00"
-  },
-  {
-    "name": "Evals",
-    "day": "TUE",
     "time": "8:00"
   },
   {
     "name": "History",
-    "day": "MON",
+    "day": "TUE",
     "time": "6:30"
   },
   {
     "name": "History Discussion",
-    "day": "MON",
-    "time": "7:00"
-  },
-  {
-    "name": "Social",
-    "day": "FRI",
-    "time": "6:00"
-  },
-  {
-    "name": "Constitution",
     "day": "TUE",
     "time": "7:00"
   },
   {
+    "name": "Socials",
+    "day": "FRI",
+    "time": "7:00"
+  },
+  {
     "name": "3DA",
-    "day": "WED",
-    "time": "6:30"
+    "day": "MON",
+    "time": "6:00"
   },
   {
       "name": "Yearbook",
-      "day": "TUE",
+      "day": "WED",
       "time": "6:30"
   },
   {
@@ -80,8 +70,13 @@
       "time": "5:30"
   },
   {
-      "name": "ImagineRIT",
+    "name": "Small Cleaning Crew",
+    "day": "FRI",
+    "time": "8:00"
+},
+  {
+      "name": "Bits n' Bytes",
       "day": "WED",
-      "time": "8:30"
+      "time": "9:00"
   }
 ]
